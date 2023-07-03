@@ -1,11 +1,11 @@
-function maxValue(nums: number[]): number {
-  let maxNum: number = nums[0]
+function maxValue(nums: Array<number>): number {
+  let res: number = -Infinity;
+
   for (let num of nums) {
-    if (maxNum < num) {
-      maxNum = num
-    }
+    if (res < num) res = num;
   }
-  return maxNum
+
+  return res;
 }
 
 export {

@@ -2,13 +2,12 @@
 exports.__esModule = true;
 exports.maxValue = void 0;
 function maxValue(nums) {
-    var maxNum = nums[0];
+    var res = -Infinity;
     for (var _i = 0, nums_1 = nums; _i < nums_1.length; _i++) {
         var num = nums_1[_i];
-        if (maxNum < num) {
-            maxNum = num;
-        }
+        if (res < num)
+            res = num;
     }
-    return maxNum;
+    return res;
 }
 exports.maxValue = maxValue;
