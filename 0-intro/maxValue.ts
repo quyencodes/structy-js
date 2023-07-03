@@ -8,10 +8,6 @@ function maxValue(nums: number[]): number {
   return maxNum
 }
 
-let result: interface = {
-  func: () => number
-}
-
 export {
-  maxValue: fn
+  maxValue
 }
