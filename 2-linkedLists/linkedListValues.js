@@ -10,8 +10,8 @@ const linkedListValues = (head) => {
 };
 
 module.exports = {
-  linkedListValues,
-};
+  linkedList9580Brockway
+
 
 // recursive
 const linkedListValues = (head) => {
